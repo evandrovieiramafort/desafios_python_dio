@@ -96,10 +96,9 @@
       <img src="banco de dados oficina img.png" />
     </center>
     <h2 id="maos_a_obra">Mãos a obra</h2>
-    <h3>Primeira etapa: Criação do BD</h3>
+    <h2 id="codigo_create">Primeira fase: CREATE</h2>
     <p>Aqui é onde tudo começa: Com os comandos de criação das tabelas.<br>
     Apesar de o Workbench fornecer o script pronto, optei por fazer algumas modificações. Por exemplo, uma das alterações que fiz foi substituir as opções "ON UPDATE NO ACTION" e "ON DELETE NO ACTION" por "ON UPDATE CASCADE" e "ON DELETE CASCADE", respectivamente. Isso ajuda a evitar sérios problemas de inconsistência nos dados, garantindo que tudo o que for deletado nas tabelas-pai seja deletado nas tabelas-filha, quando necessário. O comando CONSTRAINT foi utilizado "a rodo" para evitar a inserção de chaves primárias nulas e resolver problemas relacionados a chaves estrangeiras, entre outras questões. Em resumo, todas as alterações foram cuidadosamente planejadas para evitar erros grotescos ao escrever as consultas.</p>
-    <h2 id="codigo_create">Primeira fase: CREATE</h2>
 
 ```sql
 CREATE SCHEMA IF NOT EXISTS `bd_oficina` DEFAULT CHARACTER SET utf8 ;
