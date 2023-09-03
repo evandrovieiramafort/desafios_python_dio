@@ -61,7 +61,7 @@
   <li><strong>Tipo de Serviço</strong></li>
   <ul>
     <li>Serve para registrar o valor de cada serviço, individualmente, para que seja posteriormente calculado</li>
-    <li>Está atrelada à tabela "pecas" - para uma troca de óleo, precisamos de... óleo, que está em outra tabela</li>
+    <li>Está atrelada à tabela "pecas" - para uma troca de óleo, precisamos de... óleo, que se localiza em outra tabela</li>
     <li>Várias OS podem ter vários serviços e vários serviços podem estar atrelados a várias OS - portanto, uma tabela associativa foi essencial para a construção dessa parte do modelo</li>
     <li>Assim como um serviço pode ser dependente de várias peças e várias peças podem estar inclusas em outros serviços - mais uma tabela associativa (única "tabela-origem" que possui dois relacionamentos <strong>N:N</strong> com outras tabelas)</li>
   </ul>
