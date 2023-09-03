@@ -1055,7 +1055,7 @@ ORDER BY tp.valor DESC;
   <li>Carros que ainda se encontram pagando IPVA em muitos estados são maioria entre os clientes - o que <b>poderia</b> corroborar uma certa segurança financeira dos clientes.</li>
   <li>Temos poucas fornecedoras de peças nos estados de São Paulo e Minas Gerais, mas em contrapartida temos muitos clientes do Sudeste, o que poderia gerar um certo problema em suprir a demanda destes clientes caso os seus carros quebrem em um intervalo curto de tempo.</li>
   <li>De todos os mecânicos da oficina, a maior parte recebe quantidades iguais de trabalho.</li>
-  <li>Avaliando a classificação dos valores da oficina, temos que os seus preços estão abaixo da média do que é cobrado no estabelecimento, deixando a entender que não é um lugar bem acessível.</li>
+  <li>Avaliando a classificação dos valores da oficina, temos que os seus preços estão abaixo da média do que é cobrado no estabelecimento, deixando a entender que os valores cobrados são bem acessíveis.</li>
 </ul>
 
 <p>Obviamente são hipóteses obtidas através do puro "olhômetro" nas consultas obtidas. Poderíamos fazer N testes para verificar correlação, causalidade, fazer regressões lineares e mais um sem fim de coisas. Mas é um banco de dados com poucas informações, então tudo o que podemos fazer é especular.<br>
